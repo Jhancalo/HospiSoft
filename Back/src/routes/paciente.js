@@ -1,5 +1,5 @@
-import express from 'express';
-import Patient from '../models/patient.js';
+/* import express from 'express';
+import Patient from '../models/paciente.js';
 
 const router = express.Router();
 
@@ -20,7 +20,8 @@ router.post('/', async (req, res) => {
     await newPatient.save();
     res.status(201).json(newPatient);
   } catch (error) {
-    res.status(500).json({ message: 'Error al registrar el paciente' });
+    console.error(error);  // Agregar detalles del error en consola
+    res.status(500).json({ message: 'Error al registrar el paciente', error: error.message });
   }
 });
 
@@ -30,8 +31,13 @@ router.get('/', async (req, res) => {
     const patients = await Patient.find();
     res.status(200).json(patients);
   } catch (error) {
-    res.status(500).json({ message: 'Error al obtener pacientes' });
+    console.error(error);  // Agregar detalles del error en consola
+    res.status(500).json({ message: 'Error al obtener pacientes', error: error.message });
   }
 });
 
 export default router;
+ */
+
+
+
