@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Jhancalo/HospiSoft/issues"
   },
-  "homepage": "https://github.com/Jhancalo/HospiSoft#readme"
+  "homepage": "https://github.com/Jhancalo/HospiSoft#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1",
+    "nodemon": "^3.1.9"
+  }
 }
